@@ -103,6 +103,6 @@ Optionally (just to be sure) we can run
 composer update
 ```
 
-to make sure everything is up do date
+to make sure everything is up do date use http://localhost:8083 to access the webshop.
 
 Now it should work... i hope
