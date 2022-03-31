@@ -23,27 +23,27 @@ This Exercise is related to hyp2ue3_t1.
 
 # hyp2ue4_t1
 
-This Exercise uses the knowledge form hyp2ue_t1_ue3 to build a template for a Registration form.
+This Exercise uses the knowledge form hyp2ue3_t1 to build a template for a Registration form.
 
 # hyp2ue6_t2
 
-This Exercise uses the knowledge from hyp2ue_t2_ue5 to store data of a Registration form to `onlineshop.user`.
-It is related to hyp2ue_t2_ue5.
+This Exercise uses the knowledge from hyp2ue5_t2 to store data of a Registration form to `onlineshop.user`.
+It is related to hyp2ue5_t2.
 
 # hyp2ue5_t1
 
-This Exercise uses the knowledge form hyp2ue_t1_ue3 to build a template for a Login form.
+This Exercise uses the knowledge form hyp2ue3_t1 to build a template for a Login form.
 
 # hyp2ue7_t2
 
 This Exercise uses the knowledge from hyp2ue_t2_ue5 to store data of a Login form to authenticate against `onlineshop.user`.
-It is related to hyp2ue_t2_ue5.
+It is related to hyp2ue5_t2.
 
 # hyp2ue8_t2
 
-This Exercise uses the knowledge form hyp2ue_t1_ue3 to build a template for a form to add products to `onlineshop.product`.
-This Exercise uses the knowledge from hyp2ue_t2_ue5 to store data of the Product form to store data in `onlineshop.user`.
-It is related to hyp2ue_t2_ue5.
+This Exercise uses the knowledge form hyp2ue3_t1 to build a template for a form to add products to `onlineshop.product`.
+This Exercise uses the knowledge from hyp2ue5_t2 to store data of the Product form to store data in `onlineshop.user`.
+It is related to hyp2ue5_t2.
 
 
 
