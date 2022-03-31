@@ -19,7 +19,7 @@ See the documentation for the already installed components we use.
 This Exercise makes you familiar with the concepts of a __*database driver*__. We use __*PDO*__ for serveral reasons.
 It supports many databases and is the basis for the database framework doctrine used in the PHP framework symfony for example.
 This ist done as __*Code Along*__ session and we will add data to the table `onlineshop.country`.
-This Exercise is related to hyp2ue_t1_ue3.
+This Exercise is related to hyp2ue3_t1.
 
 # hyp2ue4_t1
 
