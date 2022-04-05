@@ -80,7 +80,7 @@ try {
     });
 
     $router->post("/addcountry", function () use ($twig) {
-        $addcountry = new addCountry($twig);
+        $addcountry = new AddCountry($twig);
         $addcountry->isValid();
     });
 
