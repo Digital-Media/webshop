@@ -98,11 +98,11 @@ try {
     });
 
     $router->get("/product", function () use ($twig) {
-#        if (!isset($_SESSION['isloggedin']) || $_SESSION['isloggedin'] !== Utilities::generateLoginHash()) {
-#            // Use this method call to enable login protection for this page
-#            $_SESSION['redirect'] = "/product";
-#            Router::redirectTo("/login");
-#       }
+        if (!isset($_SESSION['isloggedin']) || $_SESSION['isloggedin'] !== Utilities::generateLoginHash()) {
+            // Use this method call to enable login protection for this page
+            $_SESSION['redirect'] = "/product";
+            Router::redirectTo("/login");
+        }
         $product = new Product($twig);
         $productCategory = $product->fillProductCategory();
         $twig->display("product.html.twig", ["productCategory" => $productCategory]);
