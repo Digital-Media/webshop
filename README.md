@@ -42,4 +42,4 @@ It is related to hyp2ue5_t1.
 # hyp2ue8_t2
 
 This Exercise uses the knowledge form hyp2ue3_t1 to build a template for a form to add products to `onlineshop.product`.
-This Exercise uses the knowledge from hyp2ue5_t2 to store data of the Product form to store data in `onlineshop.user`.
+This Exercise uses the knowledge from hyp2ue5_t2 to store data of the Product form in `onlineshop.product`.
