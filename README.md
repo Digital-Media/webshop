@@ -1,5 +1,7 @@
 # Exercises with the webshop repo
 
+This repository provides Exercises for web development classes at the [Upper Austria University of Applied Sciences (FH Oberösterreich), Hagenberg Campus](https://www.fh-ooe.at/en/hagenberg-campus/).
+
 ## Installation
 
 See [INSTALL.md](https://github.com/Digital-Media/webshop/blob/main/INSTALL.md)
