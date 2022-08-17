@@ -2,7 +2,7 @@
 
 Open Powershell (PS) or other Terminal (prompt my be different then).
 
-## Docker
+## Starting Docker
 
 See [fhooe-web-dock](https://github.com/Digital-Media/fhooe-web-dock)
 
