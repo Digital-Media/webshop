@@ -11,10 +11,10 @@ See [fhooe-web-dock](https://github.com/Digital-Media/fhooe-web-dock)
 If you use private repos built by [Upper Austria University of Applied Sciences (FH Oberösterreich), Hagenberg Campus](https://www.fh-ooe.at/en/hagenberg-campus/).
 
 ```shell
-docker exec -it webapp /bin/bash -c "cd /var/www/html && git clone https://github.com/Digital-Media/webshop.git"
+docker exec -it webapp /bin/bash -c "cd /var/www/html && git clone https://github.com/Digital-Media/webshop.git && chmod 777 webshop"
 ```
 ```shell
-docker exec -it webapp /bin/bash -c "cd /var/www/html/webshop && composer install"
+docker exec -it webapp /bin/bash -c "cd /var/www/html/webshop && composer install && chmod -R 777 *"
 ```
 ```shell
 docker exec -it webapp /bin/bash -c "cd /var/www/html/webshop && composer update"
