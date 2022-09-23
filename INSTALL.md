@@ -2,13 +2,9 @@
 
 Open Powershell (PS) or other Terminal (prompt my be different then).
 
-## Starting Docker
+## Starting Docker and install Repo
 
 See [fhooe-web-dock](https://github.com/Digital-Media/fhooe-web-dock)
-
-### Using Prebuilt images
-
-If you use private repos built by [Upper Austria University of Applied Sciences (FH Oberösterreich), Hagenberg Campus](https://www.fh-ooe.at/en/hagenberg-campus/).
 
 ```shell
 docker exec -it webapp /bin/bash -c "cd /var/www/html && git clone https://github.com/Digital-Media/webshop.git && chmod 777 webshop"
@@ -19,19 +15,43 @@ docker exec -it webapp /bin/bash -c "cd /var/www/html/webshop && composer instal
 ```shell
 docker exec -it webapp /bin/bash -c "cd /var/www/html/webshop && composer update"
 ```
-### Using verified images from Docker Hub and build layers during docker compose up -d
 
-To use varified images from [Docker Hub](htts://hub.docker.com) with layers built during docker compose up -d
+## Maintaining a database in Container mariadb
+`PS path-to-Docker/Docker/fhooe-web-dock> `
+```shell
+docker exec -it mariadb /bin/bash -c "mariadb -uonlineshop -pgeheim"
+```
+```shell
+ Welcome to the MariaDB monitor.  Commands end with ; or \g.
+ Your MariaDB connection id is 7
+ Server version: 10.7.1-MariaDB-1:10.7.1+maria~focal mariadb.org binary distribution
 
+ Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+ MariaDB [(none)]> drop database onlineshop;
+ Query OK, 11 rows affected (0.229 sec)
+
+ MariaDB [(none)]> 
+ ```
 ```shell
-docker exec -it webapp-l /bin/bash -c "cd /var/www/html && git clone https://github.com/Digital-Media/webshop.git"
+ show databases;
 ```
 ```shell
-docker exec -it webapp-l /bin/bash -c "cd /var/www/html/webshop && composer install"
+ +--------------------+
+ | Database           |
+ +--------------------+
+ | information_schema |
+ +--------------------+
+ 1 row in set (0.001 sec)
+
+ MariaDB [(none)]> 
 ```
 ```shell
-docker exec -it webapp-l /bin/bash -c "cd /var/www/html/webshop && composer update"
+ exit
 ```
+`PS path-to-Docker/Docker/fhooe-web-dock> `
 
 ## Vagrant
 
