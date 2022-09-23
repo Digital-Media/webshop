@@ -16,8 +16,11 @@ docker exec -it webapp /bin/bash -c "cd /var/www/html/webshop && composer instal
 docker exec -it webapp /bin/bash -c "cd /var/www/html/webshop && composer update"
 ```
 
-## Maintaining a database in Container mariadb
-`PS path-to-Docker/Docker/fhooe-web-dock> `
+## Restoring onlineshop in Container mariadb
+```shell
+docker exec -it mariadb /bin/bash -c "mariadb -uonlineshop -pgeheim </src/onlineshop.sql"
+```
+## Accessing mariadb Commandline to maintain database
 ```shell
 docker exec -it mariadb /bin/bash -c "mariadb -uonlineshop -pgeheim"
 ```
