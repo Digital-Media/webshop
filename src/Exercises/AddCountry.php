@@ -29,7 +29,17 @@ final class AddCountry
     private array $twigParams = [];
 
     /**
-     * Register Constructor.
+     * @var object database handler for PDO
+     */
+    private object $dbh;
+
+    /**
+     * @var object database statement for PDO
+     */
+    private object $stmt;
+
+    /**
+     * AddCountry Constructor.
      *
      * Initializes Twig
      * Creates a database handler for the database connection.

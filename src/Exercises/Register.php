@@ -29,6 +29,16 @@ final class Register
     private array $twigParams = [];
 
     /**
+     * @var object database handler for PDO
+     */
+    private object $dbh;
+
+    /**
+     * @var object database statement for PDO
+     */
+    private object $stmt;
+
+    /**
      * Register Constructor.
      *
      * Initializes Twig
