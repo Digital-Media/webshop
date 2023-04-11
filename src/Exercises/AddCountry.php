@@ -14,7 +14,7 @@ use PDO;
 final class AddCountry
 {
     /**
-     * @var array messages is used to display error and status messages after a form was sent an validated
+     * @var array messages is used to display error and status messages after a form was sent and validated
      */
     private array $messages = [];
 
