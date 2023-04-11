@@ -26,11 +26,13 @@ This Exercise is related to hyp2ue3_t1.
 # hyp2ue4_t1
 
 This Exercise uses the knowledge form hyp2ue3_t1 to build a template for a Registration form.
+You can use login.html.twig as starting point and change it to fulfill the needs of a registration form.
+Add a repeat field for the password. The rest of the fields can be left empty for this exercise.
 
 # hyp2ue6_t2
 
 This Exercise uses the knowledge from hyp2ue5_t2 to store data of a Registration form to `onlineshop.user`.
-It is related to hyp2ue4_t1.
+It is related to hyp2ue4_t1. Validate the input fields and store them to the database.
 
 # hyp2ue5_t1
 
