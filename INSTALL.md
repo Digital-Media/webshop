@@ -1,6 +1,6 @@
 # Installation of webshop
 
-Open Powershell (PS) or other Terminal (prompt my be different then).
+Open Powershell (PS) or other Terminal (prompt may be different then).
 
 ## Starting Docker and install Repo
 
