@@ -36,7 +36,7 @@ It is related to hyp2ue4_t1. Validate the input fields and store them to the dat
 
 # hyp2ue5_t1
 
-This Exercise uses the knowledge form hyp2ue3_t1 to build a template for a Login form.
+This Exercise uses the knowledge form hyp2ue3_t1 to work with a template for a Login form and includes session handling.
 
 # hyp2ue7_t2
 
@@ -45,5 +45,5 @@ It is related to hyp2ue5_t1.
 
 # hyp2ue8_t2
 
-This Exercise uses the knowledge form hyp2ue3_t1 to build a template for a form to add products to `onlineshop.product`.
+This Exercise uses the knowledge form hyp2ue3_t1 to work with a template for a form to add products to `onlineshop.product`.
 This Exercise uses the knowledge from hyp2ue5_t2 to store data of the Product form in `onlineshop.product`.
