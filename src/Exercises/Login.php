@@ -69,8 +69,8 @@ final class Login
             // This warning is shown on the web page if error_reporting=E_ALL is set in php.ini
             PDO::ATTR_PERSISTENT => true,
             PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
-            // PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+            // PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
             // PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_NUM,
             // PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_BOTH,
             PDO::MYSQL_ATTR_INIT_COMMAND => $charsetAttr,
