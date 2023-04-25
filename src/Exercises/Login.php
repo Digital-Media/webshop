@@ -151,7 +151,7 @@ SQL;
             $this->stmt->execute($params);
             $rows = $this->stmt->fetchAll();
         }
-        if (count($rows) === 1 && password_verify($_POST['password'], $rows[0]->password)) {
+        if (count($rows) === 1 && password_verify($_POST['password'], $rows[0]['password'])) {
             $old_session_id = session_id();
             session_regenerate_id();
             $this->updateCart($old_session_id, session_id());
