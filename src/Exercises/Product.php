@@ -62,7 +62,7 @@ final class Product
      *
      * @see Product::isUniqueProductName().
      * Price can be validated with Utilities::isPrice().
-     * ptype is checked against onlineshop.product_category, if it exists.
+     * product_category_name is checked against onlineshop.product_category.product_category_name, if it exists.
      * @see Product::isValidCategory().
      *
      * Error messages are stored in the array $messages[].
