@@ -66,7 +66,7 @@ final class Product
      * @see Product::isValidCategory().
      *
      * Error messages are stored in the array $messages[].
-     * Calls Login::business() if all input fields are valid.
+     * Calls Product::business() if all input fields are valid.
      *
      * @return void Returns nothing
      */
